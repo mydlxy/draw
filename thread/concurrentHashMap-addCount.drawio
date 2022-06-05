@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-05T20:22:02.405Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36 Edg/102.0.1245.33" etag="gztkyzhmRYrxrfuyFn6W" version="18.1.1" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-06-05T20:26:43.270Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36 Edg/102.0.1245.33" etag="MNH7mAHUL9fzb-rEe4-W" version="18.1.1" type="github" pages="3">
   <diagram id="3sEptf7KT9QmBimX8ikj" name="第 1 页">
     <mxGraphModel dx="979" dy="550" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -239,8 +239,8 @@
         <mxCell id="ZRcpVtV2t2ZSD3cLuIn8-10" value="CAS成功" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;fontColor=#6600CC;" parent="7naOQtGflKw4HdsskOwx-1" vertex="1">
           <mxGeometry x="250" y="680" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ZRcpVtV2t2ZSD3cLuIn8-11" value="只有一个线程CAS竞争成功修改baseCount，其余线程只能通过hash定位到数组CounterCells中的一个CounterCell，在CounterCell中累加值" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;sketch=1;fontSize=18;fontColor=#4C0099;" parent="7naOQtGflKw4HdsskOwx-1" vertex="1">
-          <mxGeometry x="-450" y="670" width="577" height="90" as="geometry" />
+        <mxCell id="ZRcpVtV2t2ZSD3cLuIn8-11" value="只有一个线程CAS竞争成功修改baseCount，其余线程只能通过各自线程产生的随机数定位到数组CounterCells中的一个CounterCell，在CounterCell中累加值" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;sketch=1;fontSize=18;fontColor=#4C0099;" parent="7naOQtGflKw4HdsskOwx-1" vertex="1">
+          <mxGeometry x="-510" y="690" width="637" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
