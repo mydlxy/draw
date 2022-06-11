@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-11T04:37:23.995Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36 Edg/102.0.1245.33" etag="rojJMdAp3DWxQgWOfDaV" version="19.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-11T04:40:00.729Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36 Edg/102.0.1245.33" etag="fwCfVpP6xSuxwP5Wlw5T" version="19.0.3" type="github">
   <diagram id="wbaUNDNicFataSMMiU18" name="扩容整体流程">
     <mxGraphModel dx="979" dy="1719" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#F4F1DE" math="0" shadow="0">
       <root>
@@ -629,7 +629,7 @@
         <mxCell id="wTSnbn3DcDOjPf0Wo8Gv-173" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Comic Sans MS;fontSize=19;fontColor=#663300;strokeColor=#E07A5F;fillColor=#F2CC8F;" edge="1" source="wTSnbn3DcDOjPf0Wo8Gv-113" target="wTSnbn3DcDOjPf0Wo8Gv-169" parent="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="wTSnbn3DcDOjPf0Wo8Gv-194" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;将table下标所在链表的Node搬运完之后会在table中插入一个标志节点：ForwardingNode&lt;/font&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;rounded=1;shadow=1;sketch=0;fontFamily=Comic Sans MS;fontSize=19;fontColor=#663300;strokeColor=#000000;fillColor=#F2CC8F;position2=0.32;" vertex="1" parent="1">
+        <mxCell id="wTSnbn3DcDOjPf0Wo8Gv-194" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;将table元素所在链表或红黑树的node搬运完之后会在table中插入一个标志节点：ForwardingNode&lt;/font&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;rounded=1;shadow=1;sketch=0;fontFamily=Comic Sans MS;fontSize=19;fontColor=#663300;strokeColor=#000000;fillColor=#F2CC8F;position2=0.32;" vertex="1" parent="1">
           <mxGeometry x="630" y="-50" width="280" height="110" as="geometry" />
         </mxCell>
       </root>
