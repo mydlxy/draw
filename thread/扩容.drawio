@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-18T06:26:38.542Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.124 Safari/537.36 Edg/102.0.1245.44" etag="F1jI28hN6yte8xohK0GV" version="20.0.1" type="github" pages="16">
+<mxfile host="app.diagrams.net" modified="2022-06-18T06:34:21.280Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.124 Safari/537.36 Edg/102.0.1245.44" etag="WrR0z6JaO0NH_ymHSqL4" version="20.0.1" type="github" pages="16">
   <diagram id="wbaUNDNicFataSMMiU18" name="扩容整体流程">
     <mxGraphModel dx="979" dy="1719" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#F4F1DE" math="0" shadow="0">
       <root>
@@ -1086,22 +1086,22 @@
         <mxCell id="aNHw3-_J_3ng_LPQZ63E-104" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;shadow=1;sketch=1;fontFamily=Comic Sans MS;fontSize=18;fontColor=#003300;" vertex="1" parent="1">
           <mxGeometry x="856" y="-105" width="30" height="430" as="geometry" />
         </mxCell>
-        <mxCell id="aNHw3-_J_3ng_LPQZ63E-106" value="&lt;span style=&quot;&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;stride=16&lt;/font&gt;&lt;/b&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;sketch=1;fontFamily=Comic Sans MS;fontSize=18;fontColor=#003300;" vertex="1" parent="1">
+        <mxCell id="aNHw3-_J_3ng_LPQZ63E-106" value="&lt;span style=&quot;&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;多个线程CAS抢区域&lt;/font&gt;&lt;/b&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;sketch=1;fontFamily=Comic Sans MS;fontSize=18;fontColor=#003300;" vertex="1" parent="1">
           <mxGeometry x="420" width="180" height="50" as="geometry" />
         </mxCell>
         <mxCell id="aNHw3-_J_3ng_LPQZ63E-107" value="&lt;span style=&quot;&quot;&gt;&lt;b&gt;transferIndex：48&lt;/b&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;sketch=1;fontFamily=Comic Sans MS;fontSize=18;fontColor=#003300;" vertex="1" parent="1">
           <mxGeometry x="676" y="85" width="170" height="60" as="geometry" />
         </mxCell>
         <mxCell id="aNHw3-_J_3ng_LPQZ63E-108" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;shadow=1;sketch=1;fontFamily=Comic Sans MS;fontSize=18;fontColor=#003300;" vertex="1" parent="1">
-          <mxGeometry x="856" y="-265" width="30" height="130" as="geometry" />
+          <mxGeometry x="856" y="-255" width="30" height="130" as="geometry" />
         </mxCell>
         <mxCell id="aNHw3-_J_3ng_LPQZ63E-110" style="edgeStyle=orthogonalEdgeStyle;rounded=1;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;shadow=1;fontFamily=Comic Sans MS;fontSize=18;fontColor=#003300;" edge="1" parent="1" source="aNHw3-_J_3ng_LPQZ63E-109">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="846" y="-202.5" as="targetPoint" />
+            <mxPoint x="850" y="-190" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="aNHw3-_J_3ng_LPQZ63E-109" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;获取到第一块区域的线程&lt;/b&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;rounded=1;shadow=1;sketch=1;fontFamily=Comic Sans MS;fontSize=18;fontColor=#003300;" vertex="1" parent="1">
-          <mxGeometry x="650" y="-245" width="140" height="85" as="geometry" />
+          <mxGeometry x="630" y="-232.5" width="140" height="85" as="geometry" />
         </mxCell>
         <mxCell id="SsOG12KpdPXAkptJTYQu-3" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=1;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;shadow=1;fontFamily=Comic Sans MS;fontSize=24;fontColor=#003300;" edge="1" parent="1" source="rrpF1n7d7sl1gYYcg7Tf-1">
           <mxGeometry relative="1" as="geometry">
@@ -1129,7 +1129,7 @@
         <mxCell id="SsOG12KpdPXAkptJTYQu-1" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;shadow=1;sketch=1;fontFamily=Comic Sans MS;fontSize=24;fontColor=#ffffff;strokeColor=#006EAF;fillColor=#1ba1e2;" vertex="1" parent="1">
           <mxGeometry x="940" y="-255" width="30" height="125" as="geometry" />
         </mxCell>
-        <mxCell id="SsOG12KpdPXAkptJTYQu-5" value="&lt;font color=&quot;#000066&quot;&gt;stride&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;sketch=1;fontFamily=Comic Sans MS;fontSize=24;fontColor=#ffffff;fillColor=#1ba1e2;strokeColor=#006EAF;" vertex="1" parent="1">
+        <mxCell id="SsOG12KpdPXAkptJTYQu-5" value="&lt;font color=&quot;#000066&quot;&gt;stride：16&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;sketch=1;fontFamily=Comic Sans MS;fontSize=24;fontColor=#ffffff;fillColor=#1ba1e2;strokeColor=#006EAF;" vertex="1" parent="1">
           <mxGeometry x="980" y="-212.5" width="130" height="40" as="geometry" />
         </mxCell>
       </root>
